@@ -1,0 +1,9 @@
+open evsairn!ericsson@153.88.240.168
+cd /coe_reporting/LMS
+option transfer binary
+get "LD_GLOB_5066_User_Exam_Report.csv" \\eapac.ericsson.se\EINGRDFS01\COE_ANALYTICS\HRGO_COE_ANALYTICS\SFTP_Files\
+get "LD_GLOB_5100_ITEM_HISTORY_DUMP.csv" \\eapac.ericsson.se\EINGRDFS01\COE_ANALYTICS\HRGO_COE_ANALYTICS\SFTP_Files\
+get "LD_GLOB_5101_USER_DUMP.csv" \\eapac.ericsson.se\EINGRDFS01\COE_ANALYTICS\HRGO_COE_ANALYTICS\SFTP_Files\
+get "LD_GLOB_5102_REGISTRATION_DUMP.csv" \\eapac.ericsson.se\EINGRDFS01\COE_ANALYTICS\HRGO_COE_ANALYTICS\SFTP_Files\
+close
+exit
