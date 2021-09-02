@@ -1,0 +1,10 @@
+C:\Users\user_name\Desktop\SSIS\WinSCP\WinSCP.com /script=C:\Users\user_name\Desktop\SSIS\RemoteToLocal1.txt
+open user_name!company_name@153.88.240.168
+cd /coe_reporting/LMS
+option transfer binary
+get abc.csv" C:\Users\user_name\Desktop\SSIS\
+get abc1.csv" C:\Users\user_name\Desktop\SSIS\
+get abc2.csv" C:\Users\user_name\Desktop\SSIS\
+get abc3.csv" C:\Users\user_name\Desktop\SSIS\
+close
+exit
